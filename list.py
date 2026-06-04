@@ -62,6 +62,5 @@ l=[4,3,2,1]
 sum=0
 for i in range(len(l)):
     for j in range(i+1,len(l)):
-        l.index(l[i])
         sum+=1
         print(l)
