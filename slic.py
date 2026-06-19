@@ -28,9 +28,22 @@
 #         if l[i]+l[j]==9:
 #             print([i,j])
             
-nums=[4,5,6,7,0,1,2] 
-target=0
-for i in range(len(nums)):
-    for j in range(i+1,len(nums)):
-        if nums[i]+nums[j]==target:
-            print(nums.index(4))
+# nums=[4,5,6,7,0,1,2] 
+# target=0
+# for i in range(len(nums)):
+#     for j in range(i+1,len(nums)):
+#         if nums[i]+nums[j]==target:
+#             print(nums.index(4))
+
+# s="abcabcbb"
+# p=len(s)
+# print(p)
+
+
+nums = [1,2,3,1]
+n=set
+for num in nums:
+    if num in n:
+        print(true)
+        
+    

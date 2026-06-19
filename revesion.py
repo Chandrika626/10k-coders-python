@@ -48,13 +48,17 @@
 #         print(" too high")
 
 
-import random
-password="chandrika"
-guess="chandu"
-print("singin")
-while guess!=password:
-    guess=str(input("enter a password"))
-    if guess==password:
-        print("sign in is done ")
-    else:
-        print("is not done")
+# import random
+# password="chandrika"
+# guess="chandu"
+# print("singin")
+# while guess!=password:
+#     guess=str(input("enter a password"))
+#     if guess==password:
+#         print("sign in is done ")
+#     else:
+#         print("is not done")
+        
+l="hello world"
+l.index(l)
+print(l)

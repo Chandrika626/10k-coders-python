@@ -58,9 +58,60 @@
 # print("length:", count)
 
 
-l=[4,3,2,1]
-sum=0
-for i in range(len(l)):
-    for j in range(i+1,len(l)):
-        sum+=1
-        print(l)
+# l=[4,3,2,1]
+# sum=0
+# for i in range(len(l)):
+#     for j in range(i+1,len(l)):
+#         sum+=1
+#         print(l)
+        
+# j_angry=True
+# s_angry=True
+# if(j_angry!=s_angry):
+#     print(True)
+# else:
+#     print(False)
+
+# n=19
+# length=len(str(n))
+# for i in range(length):
+#     print(length)
+# total=0 #0+1+125=126-->126+27=153
+# for j in str(n):#j=1,5,3
+#         total += int(j) ** length
+# print(total)
+
+# n=19
+# total=0 
+# for j in str(n):
+#         total += int(j) **2
+# print(total)
+
+# x=18
+# if (x//9):
+#     print(x)
+# n=234
+# length=len(str(n))   
+# total=0 #0+1+125=126-->126+27=153
+# for j in str(n):#j=1,5,3
+#         total += int(j) * length
+# print(total)
+
+
+# n=234
+# result=1
+# sum=0
+# temp=0
+# for i in range(2,5):
+#     result*=i
+# print(result)
+# for j in str(n):
+#     sum+=int(j)
+# print(sum)
+# temp=result-sum
+# print(temp)
+
+
+s = "AB"
+value = ord(s) - ord('AB')+1
+print(value)

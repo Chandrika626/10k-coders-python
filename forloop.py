@@ -2,7 +2,7 @@ l=2
 m=8
 for i in range(l):
     for j in range(m):
-        print("*",end="")
+        print("⭐",end=" ")
     print()
 
 l=2
