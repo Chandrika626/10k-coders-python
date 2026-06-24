@@ -6,7 +6,15 @@ while(n>0): #123>0---->/12>0--->/1>0--1
        n=n//10 #123//10=12 --->/12//10=1--->/1//10=0
        print(sum)
 
- 
+num = 7
+original = num
+count = 0
+while num > 0:
+    digit = num % 10
+    if original % digit == 0:
+        count += 1
+        num //= 10
+print(count)
 
 n=1248
 count=0

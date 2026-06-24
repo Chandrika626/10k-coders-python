@@ -87,15 +87,15 @@
 #         total += int(j) **2
 # print(total)
 
-# x=18
-# if (x//9):
-#     print(x)
-# n=234
-# length=len(str(n))   
-# total=0 #0+1+125=126-->126+27=153
-# for j in str(n):#j=1,5,3
-#         total += int(j) * length
-# print(total)
+x=18
+if (x//9):
+    print(x)
+n=234
+length=len(str(n))   
+total=0 #0+1+125=126-->126+27=153
+for j in str(n):#j=1,5,3
+        total += int(j) * length
+print(total)
 
 
 # n=234
@@ -112,6 +112,3 @@
 # print(temp)
 
 
-s = "AB"
-value = ord(s) - ord('AB')+1
-print(value)
