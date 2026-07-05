@@ -1,3 +1,6 @@
+from git import List
+
+
 class Solution:
     def addDigits(self, num: int) -> int:
         if num==0:
@@ -13,3 +16,23 @@ for i in range(len(digits)):
 for i in str(sum):
     result.append(int(i))
 print(result)
+
+class Solution:
+    def separateDigits(self, nums: List[int]) -> List[int]:
+        result = []
+        for num in nums:
+            for digit in str(num):
+                result.append(int(digit))
+        return result
+        
+        
+class Solution:
+    def alternateDigitSum(self, n: int) -> int:
+        s = str(n)
+        l = 0
+        for i, digit in enumerate(s):
+            if i % 2 == 0:
+                l+=int(digit)
+            else:
+                l -= int(digit)
+        return l
